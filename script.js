@@ -44,9 +44,7 @@
     innerHTML += `
         <li class="list-item">
                 <div class="thumb">
-                    <a href="${data.image}" class="lightbox">
-                        <img class="info-img" src="${data.image}" alt="">
-                    </a>
+                     <img class="info-img" src="${data.image}" alt="">
                 </div>
                 <h3 class="head-color before">${data.title}</h3>
                 <p>${data.text}</p>
